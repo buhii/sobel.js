@@ -64,7 +64,7 @@ window.onload = function () {
     /* let's calculate! */
     var image = document.getElementById('image');
     image.crossOrigin = "anonymous";
-    image.src = "/images/" + images[imgId] + ".jpg";
+    image.src = "images/" + images[imgId] + ".jpg";
     image.onload = function() {
         var sobel = new Sobel({
             element: "image",
